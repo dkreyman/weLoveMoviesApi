@@ -13,7 +13,7 @@ app.use(express.json());
 app.use("/movies", moviesRouter);
 app.use("/theaters", theatersRouter);
 app.use("/reviews", reviewsRouter);
-app.use(methodNotAllowed);
 app.use(notFound);
 app.use(errorHandler);
+app.use(methodNotAllowed);
 module.exports = app;

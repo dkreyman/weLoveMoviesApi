@@ -15,5 +15,5 @@ app.use("/theaters", theatersRouter);
 app.use("/reviews", reviewsRouter);
 app.use(notFound);
 app.use(errorHandler);
-app.use(methodNotAllowed);
+
 module.exports = app;
